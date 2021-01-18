@@ -1,0 +1,33 @@
+
+html {
+    font-family: Helvetica;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #0F3376;
+    padding: 2vh;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #FFFF66;
+    font-size: 1.5rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0.5em;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #FFFFE6;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ESP32 Test Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="demo_server.css">
+    <script src="demo_server.js"></script>
+</head>
+
+<body onload="startup()">
+    <h1>Esp32 Test Page</h1>
+    <button onclick="send_ws_cmd('#RED')">Red</button>
+    <button onclick="send_ws_cmd('#GREEN')">Green</button>
+    <button onclick="send_ws_cmd('#BLUE')">Blue</button>
+    <br>
+    <button id="stop_fpga_btn" onclick="stop_fpga_blink()">Stop FPGA Blinking</button>
+    <p>Server IP Address: <div id="ip_addr">IP ADDRESS GOES HERE</div></p>
+    <p id="data_ex">DATA GOES HERE</p>
+</body>
+
+</html>
